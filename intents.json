@@ -1,0 +1,329 @@
+{
+        "intents": [
+          {
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+            "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+            "context": [""]
+          },
+          {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+            "context": [""]
+          },
+          {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"],
+            "context": [""]
+          },
+          {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+            "context": [""]
+          },
+          {
+            "tag": "options",
+            "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+            "responses": ["I can guide you through various topics including health, entertainment, and more. Just ask!", "I'm here to assist you with a variety of topics. Ask me anything!"],
+            "context": [""]
+          },
+          {
+            "tag": "tell_joke",
+            "patterns": ["Tell me a joke", "Share a funny story", "Joke of the day", "Make me laugh"],
+            "responses": ["Sure, here's a joke for you: [Insert Joke].", "Why did the chicken cross the road? To get to the other side!"],
+            "context": [""]
+          },
+          {
+            "tag": "weather",
+            "patterns": ["What's the weather like today?", "Tell me the forecast", "Is it going to rain?", "How's the weather?", "Weather update"],
+            "responses": ["The weather today is [describe current weather conditions] with a high of [temperature] and a low of [temperature]."],
+            "context": [""]
+          },
+          {
+            "tag": "food_recommendation",
+            "patterns": ["Recommend a good recipe", "What should I cook today?", "I'm hungry, suggest something", "Any food ideas?"],
+            "responses": ["How about trying [suggest a recipe]?", "You might enjoy preparing [suggest another recipe]."],
+            "context": [""]
+          },
+          {
+            "tag": "daily_activity",
+            "patterns": ["What should I do for fun today?", "Any suggestions for today's activities?", "I'm bored, entertain me"],
+            "responses": ["You could [suggest an activity], or maybe [another suggestion].", "Consider trying [recommend an activity] for some fun!"],
+            "context": [""]
+          },
+          {
+            "tag": "interesting_fact",
+            "patterns": ["Tell me something interesting", "Share a fun fact", "Teach me something new", "Interesting information"],
+            "responses": ["Did you know that [share an interesting fact]?", "Here's an interesting fact: [provide a fun fact]."],
+            "context": [""]
+          },
+          {
+            "tag": "movie_recommendation",
+            "patterns": ["Suggest a good movie", "What movie should I watch?", "Any movie recommendations?", "I need a movie to watch"],
+            "responses": ["I recommend watching [suggest a movie]. It's a [genre] film that you might enjoy!", "How about checking out [another movie suggestion]? It has great reviews!"],
+            "context": [""]
+          },
+          {
+            "tag": "book_recommendation",
+            "patterns": ["Recommend a good book", "What book should I read?", "Any book suggestions?", "I need a book to read"],
+            "responses": ["I suggest reading [recommend a book]. It's a [genre] book with an engaging storyline.", "Consider picking up [another book suggestion]. It's highly acclaimed!"],
+            "context": [""]
+          },
+          {
+            "tag": "exercise_tip",
+            "patterns": ["Give me a workout tip", "How can I stay fit?", "Any exercise recommendations?", "Tell me about a good workout"],
+            "responses": ["A great workout tip is to [share a workout tip]. It helps improve [benefit] and keeps you energized!", "Consider trying [suggest an exercise]. It's effective for [fitness goal]!"],
+            "context": [""]
+          },
+          {
+            "tag": "technology_news",
+            "patterns": ["Tell me the latest tech news", "Any tech updates?", "What's happening in the tech world?", "Tech news"],
+            "responses": ["In recent tech news, [share a tech update]. It's an exciting development in the tech industry!", "Stay informed with the latest tech news: [provide a tech headline]."],
+            "context": [""]
+          },
+          {
+                "tag": "time",
+                "patterns": ["What time is it?", "Can you tell me the time?", "What's the current time?", "Time now"],
+                "responses": ["It's currently [current time]."],
+                "context": [""]
+              },
+              {
+                "tag": "calendar",
+                "patterns": ["What's on my schedule today?", "Check my calendar", "Any appointments today?", "Remind me of my events"],
+                "responses": ["Let me check your calendar. You have [list of events] today."],
+                "context": [""]
+              },
+              {
+                "tag": "traffic",
+                "patterns": ["How's the traffic today?", "Tell me about the traffic conditions", "Is there heavy traffic?", "Traffic update"],
+                "responses": ["The current traffic conditions are [describe traffic conditions]."],
+                "context": [""]
+              },
+              {
+                "tag": "news",
+                "patterns": ["Tell me the latest news", "What's happening in the world?", "Any news updates?", "News headlines"],
+                "responses": ["Here are some of the latest news headlines: [provide news headlines]."],
+                "context": [""]
+              },
+              {
+                "tag": "health_tip",
+                "patterns": ["Give me a health tip", "Any tips for staying healthy?", "Tell me about a healthy habit", "Health advice"],
+                "responses": ["A good health tip is to [share a health tip]. It contributes to overall well-being!", "Consider incorporating [suggest a healthy habit] into your routine for better health."],
+                "context": [""]
+              },
+              {
+                "tag": "finance",
+                "patterns": ["Check my bank balance", "How's my financial status?", "Any financial advice?", "Finance update"],
+                "responses": ["Your current bank balance is [amount]. For personalized financial advice, it's recommended to consult with a financial advisor."],
+                "context": [""]
+              },
+              {
+                "tag": "travel_recommendation",
+                "patterns": ["Recommend a travel destination", "Where should I travel next?", "Any vacation suggestions?", "I need a travel idea"],
+                "responses": ["I recommend considering [suggest a travel destination]. It's known for [highlight of the destination]!"],
+                "context": [""]
+              },
+              {
+                "tag": "language_learning",
+                "patterns": ["How can I learn a new language?", "Language learning tips", "Recommend language learning resources", "Language learning advice"],
+                "responses": ["Language learning can be fun! Try using apps like Duolingo or Rosetta Stone. Consistency is key!"],
+                "context": [""]
+              },
+              {
+                "tag": "pet_care",
+                "patterns": ["How to take care of a pet?", "Pet care tips", "Any advice for pet owners?", "Taking care of pets"],
+                "responses": ["Pets thrive on love and care. Ensure they have a balanced diet, regular exercise, and regular vet check-ups for their well-being."],
+                "context": [""]
+              },
+              {
+                "tag": "technology_help",
+                "patterns": ["Can you help with tech issues?", "Tech support needed", "I have a tech problem", "Help with technology"],
+                "responses": ["I can certainly try to help with your tech issues. Please describe the problem, and I'll do my best to assist you."],
+                "context": [""]
+              },
+              {
+                "tag": "fitness",
+                "patterns": ["What's a good workout routine?", "Fitness tips", "Recommend a workout", "Exercise suggestions"],
+                "responses": ["For a great workout, try [suggest a workout routine]. It targets [specific muscle group] and improves [fitness aspect]."],
+                "context": [""]
+              },
+              {
+                "tag": "mindfulness",
+                "patterns": ["How can I practice mindfulness?", "Mindfulness tips", "Mindful living advice", "Mindfulness exercises"],
+                "responses": ["Mindfulness is beneficial for well-being. Consider [suggest a mindfulness practice] to bring awareness to the present moment."],
+                "context": [""]
+              },
+              {
+                "tag": "productivity",
+                "patterns": ["How to boost productivity?", "Productivity tips", "Work efficiently", "Time management advice"],
+                "responses": ["Boost your productivity by [suggest a productivity tip]. Setting clear goals and prioritizing tasks can make a significant difference."],
+                "context": [""]
+              },
+              {
+                "tag": "relationship_advice",
+                "patterns": ["Need relationship advice", "Relationship tips", "Help with relationships", "Love advice"],
+                "responses": ["Communication is key in any relationship. Try expressing your feelings openly and actively listening to your partner."],
+                "context": [""]
+              },
+              {
+                "tag": "DIY_projects",
+                "patterns": ["Suggest a DIY project", "DIY ideas", "Craft projects", "Creative DIY suggestions"],
+                "responses": ["Engage in a creative DIY project like [suggest a DIY project]. It's a fun way to express your creativity."],
+                "context": [""]
+              },
+              {
+                "tag": "gardening_tips",
+                "patterns": ["Gardening advice", "Tips for gardening", "How to start a garden?", "Garden care tips"],
+                "responses": ["For a thriving garden, consider [suggest a gardening tip]. It helps with [benefit] and enhances plant growth."],
+                "context": [""]
+              },
+              {
+                "tag": "sleep_tips",
+                "patterns": ["Improve my sleep", "Sleep tips", "How to sleep better?", "Insomnia help"],
+                "responses": ["Improve your sleep by [suggest a sleep tip]. Creating a relaxing bedtime routine and maintaining a consistent sleep schedule can be helpful."],
+                "context": [""]
+              },
+              {
+                "tag": "coding_help",
+                "patterns": ["Need coding help", "Programming assistance", "Coding tips", "Programming help"],
+                "responses": ["Sure, I can assist you with coding. Please specify the programming language and the issue you're facing."],
+                "context": [""]
+              },
+              {
+                "tag": "job_search",
+                "patterns": ["Job search tips", "Help with job hunting", "Job interview advice", "Career guidance"],
+                "responses": ["When job hunting, tailor your resume to each application and practice for interviews. Networking is also crucial for career success."],
+                "context": [""]
+              },
+              {
+                "tag": "fashion_tips",
+                "patterns": ["Fashion advice", "Style tips", "What to wear?", "Fashion suggestions"],
+                "responses": ["For a stylish look, consider [suggest a fashion tip]. It complements your body shape and expresses your personal style."],
+                "context": [""]
+              },
+              {
+                "tag": "travel_tips",
+                "patterns": ["Travel tips", "Travel advice", "How to plan a trip?", "Travel recommendations"],
+                "responses": ["Planning a trip? Make sure to [suggest a travel tip]. It enhances your travel experience and ensures a smooth journey."],
+                "context": [""]
+              },
+              {
+                "tag": "studying_tips",
+                "patterns": ["Study tips", "How to study effectively?", "Study techniques", "Exam preparation advice"],
+                "responses": ["For effective studying, try [suggest a study technique]. It helps with information retention and exam preparation."],
+                "context": [""]
+              },
+              {
+                "tag": "cooking_tips",
+                "patterns": ["Cooking advice", "Kitchen tips", "Cooking techniques", "Recipe suggestions"],
+                "responses": ["In the kitchen, consider [suggest a cooking tip]. It improves efficiency and enhances the flavors of your dishes."],
+                "context": [""]
+              },
+              {
+                "tag": "music_recommendation",
+                "patterns": ["Recommend music", "What music to listen to?", "Music suggestions", "Favorite songs"],
+                "responses": ["Enjoy some tunes! I recommend [suggest a music genre or artist]. It's perfect for [occasion or mood]."],
+                "context": [""]
+              },
+              {
+                "tag": "positive_affirmations",
+                "patterns": ["Positive affirmations", "Affirmations for the day", "Daily affirmations", "Positive thoughts"],
+                "responses": ["Start your day with positivity! Repeat [suggest a positive affirmation] to boost your confidence and mindset."],
+                "context": [""]
+              },
+              {
+                "tag": "hobby_suggestions",
+                "patterns": ["Hobby suggestions", "What hobby to pick up?", "Leisure activities", "Hobbies for relaxation"],
+                "responses": ["Explore a new hobby like [suggest a hobby]. It's a great way to relax and discover new interests."],
+                "context": [""]
+              },
+              {
+                "tag": "organization_tips",
+                "patterns": ["Organization advice", "How to stay organized?", "Organizing tips", "Decluttering suggestions"],
+                "responses": ["Stay organized by [suggest an organization tip]. It streamlines your tasks and creates a more efficient living or working space."],
+                "context": [""]
+              },
+              {
+                "tag": "mindset_boost",
+                "patterns": ["Boost my mindset", "Positive mindset tips", "Mindset transformation", "Positive thinking advice"],
+                "responses": ["Transform your mindset with [suggest a mindset-boosting activity]. It promotes positivity and resilience."],
+                "context": [""]
+              },
+              {
+                "tag": "tech_gadgets",
+                "patterns": ["Latest tech gadgets", "Tech device recommendations", "Gadget reviews", "New tech releases"],
+                "responses": ["Explore the latest tech gadgets like [suggest a tech gadget]. It's known for [highlight or feature]."],
+                "context": [""]
+              },
+              {
+                "tag": "parenting_advice",
+                "patterns": ["Parenting tips", "Parenting advice", "Effective parenting strategies", "Raising children"],
+                "responses": ["Parenting is rewarding! Consider [suggest a parenting tip] for fostering a positive and nurturing environment."],
+                "context": [""]
+              },
+              {
+                "tag": "tech_trends",
+                "patterns": ["Current tech trends", "Tech industry updates", "Latest in technology", "Tech trends"],
+                "responses": ["Stay informed about current tech trends. One of the latest trends is [share a tech trend]. It's shaping the future of technology!"],
+                "context": [""]
+              },
+              {
+                "tag": "self_care_tips",
+                "patterns": ["Self-care advice", "Wellness tips", "Taking care of yourself", "Self-care practices"],
+                "responses": ["Prioritize self-care by [suggest a self-care tip]. It contributes to your overall well-being and helps manage stress."],
+                "context": [""]
+              },
+              {
+                "tag": "learning_resources",
+                "patterns": ["Educational resources", "Learning platforms", "Online courses", "Education recommendations"],
+                "responses": ["Explore educational resources like [suggest a learning platform]. It offers courses in [topic] and is a great way to expand your knowledge."],
+                "context": [""]
+              },
+              {
+                "tag": "goal_setting",
+                "patterns": ["Setting goals", "Goal achievement tips", "Effective goal-setting", "Accomplishing objectives"],
+                "responses": ["Achieve your goals by [suggest a goal-setting tip]. It involves [specific steps] and helps you stay focused on your objectives."],
+                "context": [""]
+              },
+              {
+                "tag": "yoga_practices",
+                "patterns": ["Yoga for beginners", "Yoga practices", "Starting yoga", "Yoga poses"],
+                "responses": ["Embark on your yoga journey with [suggest a yoga practice]. It's perfect for beginners and promotes physical and mental well-being."],
+                "context": [""]
+              },
+              {
+                "tag": "car_maintenance",
+                "patterns": ["Car maintenance tips", "Taking care of your car", "Car care advice", "Auto maintenance"],
+                "responses": ["Ensure your car stays in top condition by [suggest a car maintenance tip]. It includes [specific actions] for optimal performance."],
+                "context": [""]
+              },
+              {
+                "tag": "relationship_building",
+                "patterns": ["Building strong relationships", "Relationship strengthening tips", "Improving connections", "Healthy relationships"],
+                "responses": ["Strengthen your relationships by [suggest a relationship-building activity]. It fosters communication and understanding."],
+                "context": [""]
+              },
+              {
+                "tag": "stress_management",
+                "patterns": ["Managing stress", "Stress relief techniques", "Coping with stress", "Stress management tips"],
+                "responses": ["Cope with stress by [suggest a stress management technique]. It involves [specific practices] to promote relaxation and well-being."],
+                "context": [""]
+              },
+              {
+                "tag": "budgeting_tips",
+                "patterns": ["Budgeting advice", "Money-saving tips", "Financial planning", "Effective budgeting"],
+                "responses": ["Manage your finances effectively with [suggest a budgeting tip]. It helps you save money and achieve your financial goals."],
+                "context": [""]
+              },
+              {
+                "tag": "positivity_quotes",
+                "patterns": ["Positive quotes", "Quotes for motivation", "Inspirational sayings", "Motivational quotes"],
+                "responses": ["Start your day with positivity! Here's a quote: [share a positive or motivational quote]."],
+                "context": [""]
+              }
+        ]
+      }
+      
